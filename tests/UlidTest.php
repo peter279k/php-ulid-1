@@ -12,8 +12,9 @@
 namespace Ulid\Tests;
 
 use Ulid\Ulid;
+use PHPUnit\Framework\TestCase;
 
-class UlidTest extends \PHPUnit_Framework_TestCase
+class UlidTest extends TestCase
 {
     public function testGeneratesTwentySixChars()
     {
