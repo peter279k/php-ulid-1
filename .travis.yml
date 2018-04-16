@@ -14,9 +14,9 @@ php:
   - 7.2
   - nightly
 
-matrix:
+  matrix:
   fast_finish: true
-  allow_faliures:
+  allow_failures:
     - php: nightly
 
 before_install:
